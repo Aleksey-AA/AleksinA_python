@@ -11,12 +11,12 @@ print("лучший язык")
 print("3. Форматированный ввод с F-строками")
 x,y = 3.14,-8.14
 print(f"Координаты точки: x = {x}; y = {y}")
-name = input()
-age = input()
+name = input("Имя: ")
+age = input("Возраст: ")
 print(f"Имя: {name}, Возраст: {age}")
 
 print("4. Работа с input()")
-name1 = input()
+name1 = input("Имя: ")
 print(f"Привет, {name1}!")
 
 print("5. Преобразование типов")
